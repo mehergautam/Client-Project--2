@@ -456,7 +456,7 @@ footer{background:linear-gradient(160deg,#061c18 0%,#0b2e26 100%);padding:4rem 5
           <div class="c-icon">📍</div>
           <div>
             <span class="c-lbl">Address</span>
-            <div class="c-val">Friends Colony, Kathora Naka, Amravati, Maharashtra – 444 602</div>
+            <div class="c-val">Friends Colony, Kathora Naka, Amravati, Maharashtra – 444 604</div>
           </div>
         </div>
         <div class="c-row">
@@ -620,7 +620,7 @@ footer{background:linear-gradient(160deg,#061c18 0%,#0b2e26 100%);padding:4rem 5
         <div class="form-group">
           <label>Preferred Batch Timing</label>
           <div class="input-icon-wrap"><span class="iico">🕐</span>
-          <select><option value="">Select timing</option><option>Morning (9 AM – 11 AM)</option><option>Afternoon (12 PM – 2 PM)</option><option>Evening (5 PM – 7 PM)</option></select></div>
+          <select id="adm-timing"><option value="">Select timing</option><option>Morning (9 AM – 11 AM)</option><option>Afternoon (12 PM – 2 PM)</option><option>Evening (5 PM – 7 PM)</option></select></div>
         </div>
         <button class="submit-btn" onclick="submitAdm()" style="margin-top:.4rem">🚀 Register Now — It's Free!</button>
         <p style="text-align:center;font-size:.72rem;color:var(--muted);margin-top:.7rem">🔒 Your info is safe &amp; 100% private</p>
@@ -698,7 +698,7 @@ footer{background:linear-gradient(160deg,#061c18 0%,#0b2e26 100%);padding:4rem 5
     <div class="f-col">
       <h5>Contact Us</h5>
       <ul>
-        <li><a href="https://maps.app.goo.gl/DVTAi5TAPZMG2Z576" target="_blank">📍 Bhatkuli, Amravati, MH 444 602</a></li>
+        <li><a href="https://maps.app.goo.gl/DVTAi5TAPZMG2Z576" target="_blank">📍 Bhatkuli, Amravati, MH 444 604</a></li>
         <li><a href="tel:+919970853422">📞 +91 9970853422</a></li>
         <li><a href="mailto:pravin.vande@gmail.com">✉️  pravin.vande@gmail.com</a></li>
         <li><a href="https://wa.me/919970853422">💬 WhatsApp Us</a></li>
@@ -710,7 +710,7 @@ footer{background:linear-gradient(160deg,#061c18 0%,#0b2e26 100%);padding:4rem 5
     <div class="map-half">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.512345!2d77.6788!3d20.8674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a9c3b1234567%3A0xabcdef1234567890!2sPadmashri%20Computer%2C%20Bhatkuli%2C%20Amravati!5e0!3m2!1sen!2sin!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div style="background:var(--navy);padding:.7rem 1.2rem;display:flex;align-items:center;justify-content:space-between;">
-        <span style="color:rgba(255,255,255,.8);font-size:.82rem;">📍 Padmashri Computer, Friends colony, Kathora Naka, Amravati – 444 602</span>
+        <span style="color:rgba(255,255,255,.8);font-size:.82rem;">📍 Padmashri Computer, Friends colony, Kathora Naka, Amravati – 444 604</span>
         <a href="https://maps.app.goo.gl/DVTAi5TAPZMG2Z576" target="_blank" style="color:var(--blue);font-size:.78rem;font-weight:700;display:flex;align-items:center;gap:5px;">
           <span>Open Maps</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
@@ -729,7 +729,7 @@ footer{background:linear-gradient(160deg,#061c18 0%,#0b2e26 100%);padding:4rem 5
       <div class="qr-img-wrap">
         <img src="qr.png" alt="Payment QR Code">
       </div>
-      <div class="qr-upi">UPI ID: 7378405680@ybl</div>
+      <div class="qr-upi">UPI ID: 9970853422@ybl</div>
       <p style="font-size:.72rem;color:rgba(255,255,255,.5);margin-top:-.5rem">Works with PhonePe · GPay · Paytm · BHIM</p>
     </div>
   </div>
@@ -820,7 +820,7 @@ renderCourses();
 function openModal(i){const c=courses[i];document.getElementById('modalTag').textContent=c.sector;document.getElementById('modalTitle').textContent=c.title;document.getElementById('modalImg').src=c.img;document.getElementById('modalDesc').textContent=c.desc;document.getElementById('modalDetails').innerHTML=c.details.map(d=>`<div class="md-row"><div class="md-icon">✓</div><span>${d}</span></div>`).join('');document.getElementById('enrollForm').style.display='block';document.getElementById('enrollSuccess').style.display='none';document.getElementById('courseModal').classList.add('open');document.body.style.overflow='hidden'}
 function closeModal(){document.getElementById('courseModal').classList.remove('open');document.body.style.overflow=''}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-const WEB3FORMS_KEY='7d44acec-f7f7-4355-a0c6-ea9c0459be3d';
+const WEB3FORMS_KEY='f14584c3-730f-484c-8bf4-e29f28b1da11';
 async function sendEmail(subject,fields){
   const body=Object.entries(fields).map(([k,v])=>k+': '+v).join('\n');
   const res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers: {'Content-Type':'application/json', 'Accept':'application/json'},body:JSON.stringify({access_key:WEB3FORMS_KEY,subject,from_name:'Padmshri Computer',message:body})});
@@ -854,8 +854,10 @@ function submitEnroll(){
       document.getElementById('enrollForm').style.display='none';
       document.getElementById('enrollSuccess').style.display='block';
     } else {
-      alert('Something went wrong. Please try again.');
+      alert('Submission failed. Please check your internet or try again.');
     }
+  }).catch(err => {
+    alert('An error occurred: ' + err.message);
   }).finally(() => {
     btn.textContent = originalText;
     btn.disabled = false;
@@ -867,7 +869,7 @@ function submitAdm(){
   const phone=document.getElementById('adm-phone').value.trim();
   const email=document.getElementById('adm-email').value.trim();
   const course=document.getElementById('adm-course').value;
-  const timing=document.querySelector('#adm-form-body select:last-of-type').value;
+  const timing=document.getElementById('adm-timing').value;
 
   if(!name||!phone||!course){alert('Please fill in all required fields.');return}
   
@@ -890,9 +892,12 @@ function submitAdm(){
       document.getElementById('adm-phone').value = '';
       document.getElementById('adm-email').value = '';
       document.getElementById('adm-course').value = '';
+      document.getElementById('adm-timing').value = '';
     } else {
-      alert('Something went wrong. Please try again.');
+      alert('Submission failed. Please check your internet or try again.');
     }
+  }).catch(err => {
+    alert('An error occurred: ' + err.message);
   }).finally(() => {
     btn.textContent = originalText;
     btn.disabled = false;
@@ -915,8 +920,10 @@ function handleHeroEnquiry(){
       alert(`✅ Thank you! We will call you back at ${phone} shortly.`);
       document.getElementById('heroPhone').value='';
     } else {
-      alert('Something went wrong. Please try again.');
+      alert('Submission failed. Please check your internet or try again.');
     }
+  }).catch(err => {
+    alert('An error occurred: ' + err.message);
   }).finally(() => {
     btn.textContent = originalText;
     btn.disabled = false;
