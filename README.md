@@ -1,4 +1,4 @@
-# 🎓 Padmashri Computer — Authorized MKCL & MS-CIT Center, Kathora Naka, Amravati
+# 🎓 Padmashri Computer — Authorized MKCL & MS-CIT Center, Katholra Naka, Amravati
 
 <div align="center">
 
